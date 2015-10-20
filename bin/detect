@@ -1,3 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# bin/detech <build_dir>
+
+echo "Running sourceversion"
 
 exit 0
