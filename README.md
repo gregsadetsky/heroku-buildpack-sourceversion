@@ -8,7 +8,7 @@ To use this buildpack, the app should already be successfully running the [multi
 
 Then just add this buildpack in addition to the existing buildpacks in the `.buildpacks` file:
 
-	https://github.com/sreid/heroku-buildpack-sourceversion.git
+	https://github.com/tempoautomation/heroku-buildpack-sourceversion.git
 
 In the application code, read the `.source_version` file that will be created on deployment. For example, in a Rails, it might look something like:
 
